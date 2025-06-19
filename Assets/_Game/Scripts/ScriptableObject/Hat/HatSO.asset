@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df429a63a7b5cdb4fb016efbed3f2418, type: 3}
+  m_Name: HatSO
+  m_EditorClassIdentifier: 
+  hatListSO:
+  - hatType: 1
+    hatName: Arrow
+    hatPrefab: {fileID: 1865172931349407511, guid: 4fd30a4fc19d52e4a9ca85d922372986, type: 3}
+    buffAtkRange: 0.5
+  - hatType: 2
+    hatName: Cap
+    hatPrefab: {fileID: 6061236421616837492, guid: 325cc39892987534595076adce049db6, type: 3}
+    buffAtkRange: 0.5
+  - hatType: 3
+    hatName: CowBoy
+    hatPrefab: {fileID: 8410475194094969512, guid: 7cc60bb237ff8d24cacbc2771bd1a18a, type: 3}
+    buffAtkRange: 0.5
+  - hatType: 4
+    hatName: Crow
+    hatPrefab: {fileID: 9105685279487159851, guid: cc7061ef6b520f740af1f6ac343355ba, type: 3}
+    buffAtkRange: 0.5
+  - hatType: 5
+    hatName: Rabit ear
+    hatPrefab: {fileID: 3274023959222195994, guid: 224026f0ff978fa4e99417708a2f9557, type: 3}
+    buffAtkRange: 0.5
+  - hatType: 6
+    hatName: Head phone
+    hatPrefab: {fileID: 2631674510559192714, guid: 5d0943ad00fc42f4db15f5b97a2b4357, type: 3}
+    buffAtkRange: 0.5
+  - hatType: 7
+    hatName: Police cap
+    hatPrefab: {fileID: 4125959373215995376, guid: e7191861a18500841ab8dbb1978dbca1, type: 3}
+    buffAtkRange: 0.5
+  - hatType: 8
+    hatName: Farm hat
+    hatPrefab: {fileID: 118024022882403732, guid: 11fc15e6e3960a84ab82bc3dc87221ad, type: 3}
+    buffAtkRange: 0.5
