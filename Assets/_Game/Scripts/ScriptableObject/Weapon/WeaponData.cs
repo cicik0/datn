@@ -9,4 +9,5 @@ public class WeaponData
     public GameObject wpPrefab;
     public EnumWpType wpType;
     public float buffAtkSpeed;
+    public int wpPrice;
 }

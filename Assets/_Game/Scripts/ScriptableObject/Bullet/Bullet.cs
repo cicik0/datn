@@ -27,9 +27,12 @@ public class Bullet : MonoBehaviour
     {
         this.attacker = attacker;
         this.onHit = onHit;
-        Debug.Log(speed);
+        //Debug.Log(speed);
+        this.transform.SetParent(this.transform.parent.parent.parent);
+
         if(EffectCourotine != null) StopCoroutine(EffectCourotine);
         EffectCourotine = StartCoroutine(EffectThrowCounrotine());
+
         rb.linearVelocity = director.normalized * speed;
     }
 
@@ -41,9 +44,10 @@ public class Bullet : MonoBehaviour
             return;
         }
 
-        if (other.CompareTag(Constant.LAYER_CHARACTER))
+        if (other.CompareTag(Constant.TAG_CHARACTER))
         {
             Character victim = Cache_character.GetChar(other);
+            if (attacker == victim) return;
             onHit?.Invoke(attacker, victim);
         }
     }
@@ -55,19 +59,13 @@ public class Bullet : MonoBehaviour
 
     protected virtual void EffectThrow()
     {
-        Debug.Log("base bullet");
-    }
-
-    private IEnumerator DeSpawnAfterTime()
-    {
-        yield return new WaitForSeconds(timeToDeSpawn);
+        //Debug.Log("base bullet");
     }
 
     private IEnumerator EffectThrowCounrotine()
     {
         while (true)
         {
-            Debug.Log("rotate");
             EffectThrow();
             yield return null;
         }

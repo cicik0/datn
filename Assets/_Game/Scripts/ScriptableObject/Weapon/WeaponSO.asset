@@ -17,35 +17,44 @@ MonoBehaviour:
     wpPrefab: {fileID: 8414591533300729579, guid: 045aabe9ab996ac4c901103a35751415, type: 3}
     wpType: 1
     buffAtkSpeed: 0.5
+    wpPrice: 100
   - wpName: axe_1
     wpPrefab: {fileID: 8469248141200761690, guid: 4da5b91bd72b02945830bff118763842, type: 3}
     wpType: 2
     buffAtkSpeed: 0.5
+    wpPrice: 150
   - wpName: boomerang
     wpPrefab: {fileID: 4508940169423555824, guid: e1a49df626780d54bb339c62bc15a03a, type: 3}
     wpType: 3
     buffAtkSpeed: 0
+    wpPrice: 200
   - wpName: ball lollipop
     wpPrefab: {fileID: 3958907560263264401, guid: f08e37cfc42f8664689e76317de1e61e, type: 3}
     wpType: 4
     buffAtkSpeed: 0.5
+    wpPrice: 100
   - wpName: christmas candy
     wpPrefab: {fileID: 1725362424309308071, guid: cec094b675817ad4baa04e1ad10ed62d, type: 3}
     wpType: 5
     buffAtkSpeed: 0.5
+    wpPrice: 100
   - wpName: ice cream
     wpPrefab: {fileID: 4910515601624817028, guid: f98459c281114d84b80b6825b476bb8a, type: 3}
     wpType: 6
     buffAtkSpeed: 0.5
+    wpPrice: 100
   - wpName: flat lollipop
     wpPrefab: {fileID: 1863482298981967482, guid: f6ab98d7b9df99d4093ee8ba3f355d69, type: 3}
     wpType: 7
     buffAtkSpeed: 0.5
+    wpPrice: 100
   - wpName: galaxy hammer
     wpPrefab: {fileID: 4861673328067725354, guid: 6279060bb2a80e54f9c9dd3cb2e1dcb9, type: 3}
     wpType: 8
     buffAtkSpeed: 0.5
+    wpPrice: 300
   - wpName: sadow knife
     wpPrefab: {fileID: 871331471656307881, guid: 0212e7d1b672f934a82fb4488a07d658, type: 3}
     wpType: 9
     buffAtkSpeed: 0.5
+    wpPrice: 500

@@ -6,4 +6,5 @@ public class PantData
 {
     public EnumPantType pantType;
     public Material pantMaterial;
+    public float buffMoveSpeed;
 }

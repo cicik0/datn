@@ -17,14 +17,19 @@ public class DataPlayer
 
     public List<int> skinStatus;
 
+    public List<int> levelStatus;
+
+    public AudioData audioSetting;
     public DataPlayer () { }
 
-    public DataPlayer(int g, List<int> wpS, List<int> hatS, List<int> pantS, List<int> skinS)
+    public DataPlayer(int g, List<int> wpS, List<int> hatS, List<int> pantS, List<int> skinS, List<int> levelS, AudioData audioSetting)
     {
         this.gold = g;
         this.wpStatus = wpS;
         this.hatStatus = hatS;
         this.pantStatus = pantS;
         this.skinStatus = skinS;
+        this.levelStatus = levelS;
+        this.audioSetting = audioSetting;
     }
 }

@@ -6,6 +6,7 @@ public class Hat : MonoBehaviour
     [SerializeField] string hatName;
     [SerializeField] GameObject hatPrefab;
     [SerializeField] EnumHatType hatType;
+    [SerializeField] GameObject hatView;
     [SerializeField] float buffAtkRange;
 
     public void OnInit(EnumHatType type)
@@ -18,9 +19,16 @@ public class Hat : MonoBehaviour
                 this.hatType = h.hatType;
                 this.hatPrefab = h.hatPrefab;
                 this.buffAtkRange = h.buffAtkRange;
-                Instantiate(hatPrefab, this.transform);
+                hatView = Instantiate(hatPrefab, this.transform);
                 return;
             }
         }
+    }
+
+    public void DesTroyHatView()
+    {
+        if (hatView == null) return;
+        Destroy(hatView);
+        hatView = null;
     }
 }
